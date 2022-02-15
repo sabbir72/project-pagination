@@ -1,0 +1,52 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+thead {
+    background-color: #44b344;
+}
+h1 {
+    font-size: 36px;
+    border: solid;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #939393;
+}
+
+table,th {  
+        border-collapse: collapse; 
+        text-align: center; 
+    }  
+ .inline{   
+     display: inline-block;   
+     margin: 5px 0px;   
+ }   
+         
+        input, button{   
+           height: 26px;  
+        }   
+  
+    .pagination {   
+        display: inline-block; 
+        margin: 8px 0px;  
+    }   
+    .pagination a {   
+        font-weight:bold;   
+        font-size:12px;   
+        color: black;   
+        float: left;   
+        padding: 4px 16px;   
+        text-decoration: none;   
+        border:1px solid #9f9f9f4f;   
+    }   
+    .pagination a.active {   
+            background-color:  #5f6e6d;   
+    }   
+    .pagination a:hover:not(.active) {   
+        background-color: skyblue;   
+    }   
+    .button {
+    padding: 2px 12px;
+}
+form {
+    float: right;
+}
